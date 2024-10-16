@@ -1,0 +1,21 @@
+Nombre: Miguel
+Dirección: Av Ejemplo 1352
+Jamon y Queso. Cantidad: 25
+Muzzarella. Cantidad: 38
+---------------------------
+Nombre: Santiago
+Dirección: Japon 532
+Jamon y Queso. Cantidad: 25
+Napolitana. Cantidad: 25
+---------------------------
+Nombre: Marcos
+Dirección: San Martin 4645
+Jamon y Queso. Cantidad: 10
+Muzzarella. Cantidad: 2
+---------------------------
+Nombre: Juan
+Dirección: Lavalle 1352
+Jamon y Queso. Cantidad: 25
+Napolitana. Cantidad: 8
+Muzzarella. Cantidad: 4
+---------------------------
