@@ -11,8 +11,7 @@
 <body>
 
     <?php
-    $ar_pedido = fopen("
-    pedido.txt", "a") or
+    $ar_pedido = fopen("pedido.txt", "a") or
         die("Problemas en la creacion");
     $nombre = $_REQUEST["nombre"];
     fputs($ar_pedido, "Nombre: $nombre\n");
@@ -30,8 +29,8 @@
         $cantidadMuzzarella = $_REQUEST["cantidadMuzzarella"];
         fputs($ar_pedido, "Muzzarella. Cantiddad: $cantidadMuzzarella\n");
     }
-    fputs($ar_pedido, "---------------------------");
-    fclose($ar);
+    fputs($ar_pedido, "---------------------------\n");
+    fclose($ar_pedido);
     echo "El pedido se terminó de cargar correctamente.";
     ?>
 
