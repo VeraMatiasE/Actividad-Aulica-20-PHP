@@ -199,7 +199,7 @@
   // 16 - Lectura de un archivo de texto.
   echo "<h1>16 - Lectura de un archivo de texto.</h1>";
   if (
-    $ar_pedido = fopen("./pages/pedido.txt", "r")
+    $ar_pedido = fopen("pages/pedido.txt", "r")
   ) {
     while (!feof($ar_pedido)) {
       $linea = fgets($ar_pedido);
