@@ -170,7 +170,7 @@
   // 15 - Creación de un archivo de texto.
   echo "<h1></h1>";
   ?>
-  <form action="pages/pedido.php" method="post">
+  <form action="pages/generarPedido.php" method="post">
     <label for="nombrePedido">Nombre:</label>
     <input type="text" id="nombrePedido" name="nombre" />
     <br>
