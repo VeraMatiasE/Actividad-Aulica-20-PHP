@@ -11,7 +11,7 @@
 <body>
 
   <?php
-
+  echo "<h1>ENV: ".$_ENV["TESTING_ENV"]."</h1>"
   // 4 - Un programita más útil que "Hola Mundo"
   echo "<h1> 4 - Un programita más útil que \"Hola Mundo\"</h1>";
   $numero = rand(1, 100);
